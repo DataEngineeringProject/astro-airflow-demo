@@ -11,7 +11,7 @@ import os
 
 sys.path.insert(0,os.path.abspath(os.path.dirname(__file__)))
 
-from include.stock_market.tasks import _get_stock_prices, _store_prices, _get_formatted_csv
+from include.stock_market.tasks import _get_stock_prices, _store_prices, _get_formatted_csv 
 
 SYMBOL = 'NVDA'
 
