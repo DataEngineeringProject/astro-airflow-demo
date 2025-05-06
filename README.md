@@ -1,9 +1,9 @@
 ### Yahoo Finance Stock Prices ETL Pipeline with Astro-Apache-Airflow
 This project demonstrates how to build a robust ETL pipeline that extracts, transforms, and loads real-time stock market data from the Yahoo Finance API using Astro Apache Airflow. The pipeline automates the collection of stock information utilizing container technology a.k.a `docker` to build the project locally with `minio` a.k.a `AWS S3` and `Spark`
 ### Architecture Overview
-`Data Extraction`: Utilizes the Yahoo Finance API to fetch stock data `Yahoo Finance API: -> https://query2.finance.yahoo.com/`
-`Data Transformation`: Processes and scales relevant numerical fields for better analysis.
-`Data Storage`: Loads the processed data into a minio bucket.
+- `Data Extraction`: Utilizes the Yahoo Finance API to fetch stock data `Yahoo Finance API: -> https://query2.finance.yahoo.com/`
+- `Data Transformation`: Processes and scales relevant numerical fields for better analysis.
+- `Data Storage`: Loads the processed data into a minio bucket.
 #### Dependencies
 - Install  Astro CLI for your operating system `brew install astro` and check version `astro version`
 - Initialize the Astro development environment for Airflow `astro dev init`
