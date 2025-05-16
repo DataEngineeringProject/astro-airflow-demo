@@ -16,7 +16,7 @@ from include.stock_market.tasks import _get_stock_prices, _store_prices, _get_fo
 SYMBOL = 'NVDA'
 
 @dag(
-    start_date=datetime(2025, 1, 1),
+    start_date=datetime(2025, 5, 16),
     schedule='@daily',
     catchup=False,
     tags=['stock_market'],

@@ -15,7 +15,7 @@ services:
 
   minio:
     image: minio/minio:RELEASE.2024-06-13T22-53-53Z
-    container_name: minio-test
+    container_name: minio
     hostname: minio
     restart: always
     volumes:
